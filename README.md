@@ -7,6 +7,27 @@ Spamalyzer is a web application that classifies messages as **Spam** or **Ham** 
 - Machine learning model powered by **scikit-learn** (SVM with TF-IDF vectorization).
 - Real-time predictions via a RESTful API.
 
+## 📩 Spam Example
+
+> **Congratulations!**  
+> You have been selected as the lucky winner of our international lottery!  
+> To claim your **$1,000,000** prize, please reply with your full name, address, phone number, and bank account details.  
+> **ACT FAST** – this offer expires in 24 hours!  
+>
+> *Yours sincerely,*  
+> *Mr. John Richman*  
+> *International Lottery Coordinator*  
+
+**🧠 Prediction:** `SPAM`
+
+---
+
+## ✅ Non-Spam Example
+
+*(Insert a real non-spam message here)*
+
+**🧠 Prediction:** `HAM`
+
 ## Deployment
 - **Frontend**: Hosted on Netlify ([Live Demo](https://spamalyzer.netlify.app)).
 - **Backend**: Hosted on ([Render](https://spam-classifier-backend.onrender.com/)).
@@ -35,8 +56,8 @@ To run Spamalyzer locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/pratzie100/spamalyzer.git
-   cd spamalyzer
+   git clone https://github.com/pratzie100/Spamalyzer.git
+   cd Spamalyzer
    pip install -r requirements.txt
    python app.py
 2. **Access the app**:
