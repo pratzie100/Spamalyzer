@@ -15,7 +15,7 @@ Spamalyzer is a web application that classifies messages as **Spam** or **Ham** 
 > **ACT FAST** – this offer expires in 24 hours!  
 >
 > *Yours sincerely,*  
-> *Mr. John Richman*  
+> *Mr. Smith*  
 > *International Lottery Coordinator*  
 
 **🧠 Prediction:** `SPAM`
@@ -24,9 +24,16 @@ Spamalyzer is a web application that classifies messages as **Spam** or **Ham** 
 
 ## ✅ Non-Spam Example
 
-*(Insert a real non-spam message here)*
+> Hi friend,  
+>  
+> Just a quick reminder about our meeting scheduled for tomorrow at 10 AM. Let me know if you’d like to reschedule.  
+> Looking forward to catching up and discussing the project updates.  
+>  
+> Best regards,  
+> Pratyush
 
 **🧠 Prediction:** `HAM`
+
 
 ## Deployment
 - **Frontend**: Hosted on Netlify ([Live Demo](https://spamalyzer.netlify.app)).
