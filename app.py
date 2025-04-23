@@ -58,6 +58,12 @@ def home():
     return 'Spamalyzer API is up and running!'
 
 
+# Add new /ping endpoint
+@app.route('/ping')
+def ping():
+    return jsonify({'status': 'alive'})
+
+
 # Route for prediction
 @app.route('/predict', methods=['POST'])
 def predict():
