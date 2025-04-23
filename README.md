@@ -18,7 +18,7 @@ Spamalyzer is a web application that classifies messages as **Spam** or **Ham** 
 > *Mr. Smith*  
 > *International Lottery Coordinator*  
 
-**🧠 Prediction:** `SPAM`
+**🧠 Prediction:** `SPAM🚫`
 
 ---
 
@@ -32,7 +32,7 @@ Spamalyzer is a web application that classifies messages as **Spam** or **Ham** 
 > Best regards,  
 > Pratyush
 
-**🧠 Prediction:** `HAM`
+**🧠 Prediction:** `HAM✅`
 
 
 ## Deployment
