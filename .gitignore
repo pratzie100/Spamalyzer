@@ -1,2 +1,7 @@
 # Jupyter Notebook
 .ipynb_checkpoints/
+
+
+# Ensure NLTK data is not ignored
+!backend/nltk_data/
+
