@@ -1,7 +1,3 @@
 [build]
   publish = "."
   command = ""
-
-# Ignore Python-related files to prevent dependency installation
-[build.environment]
-  PYTHON_VERSION = ""
