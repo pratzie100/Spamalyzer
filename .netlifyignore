@@ -1,1 +1,8 @@
+app.py
 requirements.txt
+Procfile
+.python-version
+spam.csv
+spam_email_classifier.ipynb
+svm_model.pkl
+vectorizer.pkl
