@@ -1,3 +1,7 @@
 [build]
-  publish = "."          # Serve index.html from root
-  command = "echo 'No build needed'"   # Disable Python build
+  publish = "."
+  command = ""
+
+# Ignore Python-related files to prevent dependency installation
+[build.environment]
+  PYTHON_VERSION = ""
