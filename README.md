@@ -1,6 +1,6 @@
 # Spamalyzer
 
-Spamalyzer is a web application that classifies messages as **Spam** or **Ham** (non-spam) using a Support Vector Machine (SVM) model trained on SMS Spam Collection Dataset (Kaggle). Built with a **Flask** backend and a **Bootstrap**-powered frontend, it provides a user-friendly interface to detect spam messages with real-time predictions. The app is deployed using **Netlify** (frontend) and **Koyeb** for backend (previous backend deployment was on Render). 
+Spamalyzer is a web application that classifies messages as **Spam** or **Ham** (non-spam) using a Support Vector Machine (SVM) model trained on SMS Spam Collection Dataset (Kaggle). Built with a **Flask** backend and a **Bootstrap**-powered frontend, it provides a user-friendly interface to detect spam messages with real-time predictions. The app is deployed using **Netlify** (frontend) and **Render** for backend. 
 
 ## Features
 - Robust text preprocessing using **NLTK** (tokenization, lemmatization, stopword removal).
@@ -37,7 +37,7 @@ Spamalyzer is a web application that classifies messages as **Spam** or **Ham** 
 
 ## Deployment
 - **Frontend**: Hosted on Netlify ([Live Demo](https://spamalyzer.netlify.app))
-- **Backend**: Hosted on ([Koyeb](https://zonal-kerianne-pratzie100-a718c393.koyeb.app/)) (Previous Deployment - Render)
+- **Backend**: Hosted on ([Render](https://spam-classifier-backend.onrender.com/)) 
 
 ## Technologies Used
 - **Frontend**:
@@ -55,7 +55,7 @@ Spamalyzer is a web application that classifies messages as **Spam** or **Ham** 
   - **joblib**: Model and vectorizer serialization.
 - **Deployment**:
   - **Netlify**: Static frontend hosting.
-  - **Koyeb**: Backend hosting with Python environment.
+  - **Render**: Backend hosting with Python environment.
   - **GitHub**: Version control and repository hosting.
 
 ## Setup (Local Development)
